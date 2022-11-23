@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
 	int end_y = 1078;
 	VideoCapture cap(argv[1]);
 	if (!cap.isOpened()) {
-		cout << "¿µ»ó ¾øÀ½" << endl;
+		cout << "ì˜ìƒ ì—†ìŒ" << endl;
 		return -1;
 	}
 	namedWindow("color");
@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
 	while (1) {
 		bool ret = cap.read(img_frame);
 		if (!ret) {
-			cout << "µ¿¿µ»óÆÄÀÏ ÀÐ±â ¿Ï·á" << endl;
+			cout << "ë™ì˜ìƒíŒŒì¼ ì½ê¸° ì™„ë£Œ" << endl;
 			break;
 		}
 
