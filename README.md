@@ -2,7 +2,8 @@
 
 * computer vision
 
-* 도로 주행 동영상에서 차선을 검출합니다.
+## 구현한 기능
+* 도로 주행 동영상에서 차선을 검출
 
 * Canny변환과 HoughLines 사용
 
